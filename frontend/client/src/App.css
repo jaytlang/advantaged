@@ -1,0 +1,117 @@
+html {
+	background-color: #042c08;
+}
+
+body {
+	color: #00ff00;
+	font-family: monospace;
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+}
+
+.centered {
+	text-align: center;
+}
+
+#bg-window {
+	width: 90%;
+	height: 90%;
+	border-radius: 40px;
+	background-color: #131313;
+	display: inline;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	z-index: -1;
+}
+
+#map-img {
+	width: 100%;
+}
+
+#img-wrapper {
+	display: inline-block;
+	width: 40%;
+	position: relative;
+}
+
+#indicator-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#indicator-table td {
+	text-align: center;
+	width: 70px;
+}
+
+.indicator-light {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #042c08;
+	border-radius: 10px;
+}
+
+.indicator-light.on {
+	background-color: #00cc00;
+}
+
+.button {
+	text-align: center;
+	vertical-align: middle;
+	width: 80px;
+	height: 30px;
+	border: 5px solid #00cc00;
+	border-radius: 10px;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: default;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.button p {
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+#mode-button {
+	margin-top: 140px;
+	margin-bottom: 30px;
+}
+
+#loc-button {
+	margin-top: 20px;
+}
+
+#loc-point {
+	position: absolute;
+	display: inline;
+	left: 20%;
+	bottom: 40%;
+	background-color: #00cc00;
+	border-radius: 10px;
+	width: 10px;
+	height: 10px;
+}
+
+#loc-point.hidden {
+	display: none;
+}
+
+#title {
+	position: absolute;
+	left: 30px;
+	top: 15px;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+}

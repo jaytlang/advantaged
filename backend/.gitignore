@@ -1,0 +1,5 @@
+advd
+*.o
+*.d
+log.txt
+
